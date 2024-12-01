@@ -17,13 +17,13 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/registrer" element={<RegistrerPages />} />
+        <Route path="/register" element={<RegistrerPages />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/pizza/p001" element={<Pizza />} />
-        <Route path="/404" element={<NotFound />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/404" element={<NotFound/>} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
       <Footer />
     </BrowserRouter>
